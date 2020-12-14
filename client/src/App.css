@@ -1,38 +1,186 @@
+@font-face {
+  font-family: "proxima-regular";
+  src: url("../src/assets/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quincy";
+  src: url("../src/assets/Quincy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
+  /* text-align: center; */
+}
+#logo {
+  width: 200px;
+  height: 100px;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  font-family: "proxima-regular", sans-serif;
+}
+#nav-links {
+  font-family: "proxima-regular", sans-serif;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 30%;
+  height: 60pt;
+  padding-top: 50px;
+  padding-right: 15px;
+}
+#connect-button {
+  width: 30%;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e08867;
+  border-color: #e08867;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.15em;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(241, 235, 232);
+}
+a:link {
+  text-decoration: none;
+  color: #11354c;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:visited {
+  text-decoration: none;
+  color: #11354c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a:hover {
+  text-decoration: none;
+  color: #11354c;
+}
+
+a:active {
+  text-decoration: none;
+  color: #11354c;
+}
+h1 {
+  font-family: "Quincy", serif;
+}
+#profile-pic {
+  width: 514px;
+  display: block;
+  margin-top: 100px;
+  text-align: right;
+  position: absolute;
+  right: 60px;
+}
+#greeter {
+  background-color: #11354c;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-evenly;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 400px;
+  right: 37%;
+  text-align: left;
+  z-index: 3;
+}
+#greeter h1 {
   color: white;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+  padding-left: 20px;
+}
+#greeter p {
+  font-family: "proxima-regular", serif;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+#stock-img {
+  width: 400px;
+  position: absolute;
+  left: 3%;
+  bottom: -25%;
 }
 
-.App-link {
-  color: #61dafb;
+#tech-stack {
+  width: 100vw;
+  height: fit-content;
+  background-color: #d19c8d;
+  margin-top: 1030px;
+  padding-bottom: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#icon-grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#wheelhouse {
+  position: relative;
+  top: -30px;
+  font-family: "proxima-regular", serif;
+  font-size: 30px;
+  color: #d19c8d;
+  text-align: center;
+}
+#react-icon,
+#html-icon,
+#css-icon,
+#node-icon,
+#ruby-icon,
+#mongo-icon,
+#postgres-icon {
+  width: 20%;
+  height: 90px;
+  margin: 10px 5px;
+}
+#rails-icon {
+  width: 20%;
+  height: 50px;
+}
+.projects {
+  width: 60vw;
+  height: 600px;
+  overflow: visible;
+  background-color: #e0c5bb;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+#projects-header {
+  font-family: "proxima-regular";
+  font-size: 30px;
+  color: #e0c5bb;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: -10px;
+}
+#plantify-ss {
+  margin-top: 100px;
+  margin-left: -300px;
+  height: 300px;
+}
+.project-link h2 {
+  margin-left: 20px;
+  font-size: 50px;
+  font-family: "proxima-regular", serif;
+}
+.project-descrip {
+  margin-left: 20px;
+  font-family: "proxima-regular", serif;
+  font-size: 20px;
 }
