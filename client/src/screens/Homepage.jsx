@@ -62,6 +62,8 @@ function Homepage() {
           <img id='plantify-ss' src={plantify} alt="screenshot" />
           <a className='project-link' href='https://plantify.netlify.com' rel="noopener noreferrer" target="_blank" ><h2>Plantify</h2></a>
           <p className='project-descrip'>This cool little app allows the user to find local plant shops in the local area and check their inventory.</p>
+          <br/>
+          <a id='connect-button' href="https://github.com/eliman387/Plantify" rel="noopener noreferrer" target="_blank">Github</a>
         </div>
       </div>
       <br />
@@ -69,7 +71,9 @@ function Homepage() {
         <div>
           <img id='plantify-ss' src={rt} alt="screenshot" />
           <a className='project-link' href='https://recipetracker.netlify.com' rel="noopener noreferrer" target="_blank" ><h2>Recipe Tracker</h2></a>
-          <p className='project-descrip'>This cool little app allows the user to find local plant shops in the local area and check their inventory.</p>
+          <p className='project-descrip'>This cool little app allows the user to view delicious recipes and create their own as well.</p>
+          <br/>
+          <a id='connect-button' href="https://github.com/eliman387/Recipe-Tracker" rel="noopener noreferrer" target="_blank">Github</a>
         </div>
       </div>
       <br />
@@ -77,7 +81,35 @@ function Homepage() {
         <div>
           <img id='plantify-ss' src={VC} alt="screenshot" />
           <a className='project-link'href='https://virtualcollective.netlify.app' rel="noopener noreferrer" target="_blank" ><h2>Virtual Collective</h2></a>
-          <p className='project-descrip'>This cool little app allows the user to find local plant shops in the local area and check their inventory.</p>
+          <p className='project-descrip'>This amazing callabrotive app allows the user to find local events in the local area and attend virtually. This app was designed and developed in tandem with my colleagues: Mika Nur, Chase Mock, Leslie, Ashley, and Jordie</p>
+          <br/>
+          <a id='connect-button' href="https://github.com/mikanur10/Virtual-Collective" rel="noopener noreferrer" target="_blank">Github</a>
+        </div>
+      </div>
+      <br/>
+      <div id='contact-me'>
+        <h1>Contact Me</h1>
+        <div id='email-container'>
+        <form
+          action="https://formspree.io/f/mbjpzqbg"
+          method="POST"
+          >
+          <label>
+            Your name:
+            <input type="text" name="name" />
+            </label>
+            <br/>
+          <label>
+            Your email:
+            <input type="text" name="_replyto"/>
+            </label>
+            <br/>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
         </div>
       </div>
     </div>
