@@ -21,8 +21,8 @@ function Homepage() {
     <div>
       <nav id='header'>
         <div id='nav-links'>
-        <Link to='/about-me'>ABOUT ME</Link>
-        <a href='#projects-header'>PORTFOLIO</a>
+        <Link className='links' to='/about-me'>ABOUT ME</Link>
+        <a className='links' href='#projects-header'>PORTFOLIO</a>
         </div>
         <img id='logo' src={logo} alt="logo" />
         <a href='#contact-me'id='connect-button'>LET'S CONNECT</a>
@@ -108,7 +108,7 @@ function Homepage() {
             Your message:
             <textarea name="message"></textarea>
           </label>
-          <button type="submit">Send</button>
+          <button id='form-submit' type="submit">Send</button>
         </form>
         </div>
       </div>
