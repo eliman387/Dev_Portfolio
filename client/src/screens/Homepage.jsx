@@ -6,8 +6,8 @@ import plantify from '../assets/Plantify.png';
 import rt from '../assets/RecipeTracker.png';
 import VC from '../assets/VC.png';
 import stock from '../assets/stock2.jpg';
-import icon1 from '../assets/html_icon.svg';
-import icon2 from '../assets/css_icon.svg';
+import icon1 from '../assets/html_icon1.svg';
+import icon2 from '../assets/css_icon1.svg';
 import icon3 from '../assets/node_icon.svg';
 import icon4 from '../assets/React-icon.svg';
 import icon5 from '../assets/ruby_icon.svg';
@@ -70,7 +70,7 @@ function Homepage() {
       <div className='projects'>
         <div>
           <img id='plantify-ss' src={rt} alt="screenshot" />
-          <a className='project-link' href='https://recipetracker.netlify.com' rel="noopener noreferrer" target="_blank" ><h2>Recipe Tracker</h2></a>
+          <a className='project-link links' href='https://recipetracker.netlify.com' rel="noopener noreferrer" target="_blank" ><h2>Recipe Tracker</h2></a>
           <p className='project-descrip'>This cool little app allows the user to view delicious recipes and create their own as well.</p>
           <br/>
           <a id='connect-button' href="https://github.com/eliman387/Recipe-Tracker" rel="noopener noreferrer" target="_blank">Github</a>
@@ -111,6 +111,7 @@ function Homepage() {
           <button id='form-submit' type="submit">Send</button>
         </form>
         </div>
+        <br/>
       </div>
     </div>
   );

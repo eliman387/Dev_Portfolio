@@ -5,6 +5,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "proxima-semibold";
+  src: url("../src/assets/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
   font-family: "Quincy";
   src: url("../src/assets/Quincy.ttf") format("truetype");
   font-weight: normal;
@@ -18,10 +24,10 @@
 #header {
   display: flex;
   justify-content: space-between;
-  font-family: "proxima-regular", sans-serif;
+  /* font-family: "proxima-regular", sans-serif; */
 }
 #nav-links {
-  font-family: "proxima-regular", sans-serif;
+  font-family: "proxima-semibold", sans-serif;
   font-size: 20px;
   display: flex;
   text-align: center;
@@ -232,9 +238,13 @@ label {
   font-family: "Quincy", serif;
   font-size: 30px;
   margin-top: 20px;
+  margin-right: 20px;
 }
 input {
   margin: 20px 25px;
+}
+textarea {
+  margin-left: 25px;
 }
 #form-submit {
   width: 50%;
