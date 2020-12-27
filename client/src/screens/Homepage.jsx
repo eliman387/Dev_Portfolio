@@ -16,6 +16,7 @@ import icon7 from '../assets/mongo_icon.svg';
 import icon8 from '../assets/postgres_icon.svg';
 
 
+
 function Homepage() {
   return (
     <div>
@@ -68,7 +69,15 @@ function Homepage() {
             <div className='content'>
               <h2>01</h2>
               <h3>Plantify</h3>
-              <img src={plantify} alt="plantify" width='50%'/>
+              <div className='img-techstack'>
+                <img src={plantify} alt="plantify" width='50%' />
+                <div className='card-techstack'>
+                  <img className='card-icon'src={icon4} alt="react" />
+                  <img className='card-icon' src={icon5} alt="ruby" />
+                  <img className='card-icon' src={icon6} alt="rails" />
+                </div>
+              </div>
+              
               <p>This cool little app allows the user to find local plant shops in the local area and check their inventory.</p>
               <a href="https://plantify.netlify.app/" rel="noopener noreferrer" target="_blank">Check it Out!</a>
               <a href="https://github.com/eliman387/Plantify" rel="noopener noreferrer" target="_blank">Project Github</a>
@@ -98,7 +107,8 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <br/>
+      <br />
+      
       <div id='contact-me'>
         <h1>Contact Me</h1>
         <div id='email-container'>
