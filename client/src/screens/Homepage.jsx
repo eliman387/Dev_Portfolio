@@ -19,6 +19,8 @@ import icon8 from '../assets/postgres_icon.svg';
 function Homepage() {
   return (
     <div>
+      <br />
+      <br/>
       <nav id='header'>
         <div id='nav-links'>
         <Link className='links' to='/about-me'>ABOUT ME</Link>
@@ -84,6 +86,36 @@ function Homepage() {
           <p className='project-descrip'>This amazing callabrotive app allows the user to find local events in the local area and attend virtually. This app was designed and developed in tandem with my colleagues: Mika Nur, Chase Mock, Leslie, Ashley, and Jordie</p>
           <br/>
           <a id='connect-button' href="https://github.com/mikanur10/Virtual-Collective" rel="noopener noreferrer" target="_blank">Github</a>
+        </div>
+      </div>
+      <br />
+      <br /> 
+      <br />
+      
+      <div className='container'>
+        <div className='card'>
+          <div className='content'>
+            <h1>01</h1>
+            <h3>Card One</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
+            <a href="#">Github</a>
+          </div>
+        </div>
+        <div className='card'>
+          <div className='content'>
+            <h1>02</h1>
+            <h3>Card Two</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
+            <a href="#">Github</a>
+          </div>
+        </div>
+        <div className='card'>
+          <div className='content'>
+            <h1>01</h1>
+            <h3>Card Three</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
+            <a href="#">Github</a>
+          </div>
         </div>
       </div>
       <br/>
