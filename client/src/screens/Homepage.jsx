@@ -84,37 +84,40 @@ function Homepage() {
           <img id='plantify-ss' src={VC} alt="screenshot" />
           <a className='project-link'href='https://virtualcollective.netlify.app' rel="noopener noreferrer" target="_blank" ><h2>Virtual Collective</h2></a>
           <p className='project-descrip'>This amazing callabrotive app allows the user to find local events in the local area and attend virtually. This app was designed and developed in tandem with my colleagues: Mika Nur, Chase Mock, Leslie, Ashley, and Jordie</p>
-          <br/>
           <a id='connect-button' href="https://github.com/mikanur10/Virtual-Collective" rel="noopener noreferrer" target="_blank">Github</a>
         </div>
       </div>
       <br />
       <br /> 
       <br />
-      
-      <div className='container'>
-        <div className='card'>
-          <div className='content'>
-            <h1>01</h1>
-            <h3>Card One</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
-            <a href="#">Github</a>
+      <div className='project-backdrop'>        
+        <div className='container'>
+          <div className='card'>
+            <div className='content'>
+              <h2>01</h2>
+              <h3>Plantify</h3>
+              <img src={plantify} alt="plantify" width='50%'/>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
+              <a href="https://github.com/eliman387/Plantify">Github</a>
+            </div>
           </div>
-        </div>
-        <div className='card'>
-          <div className='content'>
-            <h1>02</h1>
-            <h3>Card Two</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
-            <a href="#">Github</a>
+          <div className='card'>
+            <div className='content'>
+              <h2>02</h2>
+              <h3>Virtual Collective</h3>
+              <img src={VC} alt="Virtual Collective" width='50%'/>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
+              <a href="https://github.com/mikanur10/Virtual-Collective">Github</a>
+            </div>
           </div>
-        </div>
-        <div className='card'>
-          <div className='content'>
-            <h1>01</h1>
-            <h3>Card Three</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
-            <a href="#">Github</a>
+          <div className='card'>
+            <div className='content'>
+              <h2>03</h2>
+              <h3>Recipe Tracker</h3>
+              <img src={rt} alt="Recipe Tracker" width='50%'/>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
+              <a href="https://github.com/eliman387/Recipe-Tracker">Github</a>
+            </div>
           </div>
         </div>
       </div>
