@@ -69,8 +69,9 @@ function Homepage() {
               <h2>01</h2>
               <h3>Plantify</h3>
               <img src={plantify} alt="plantify" width='50%'/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
-              <a href="https://github.com/eliman387/Plantify" rel="noopener noreferrer" target="_blank">Github</a>
+              <p>This cool little app allows the user to find local plant shops in the local area and check their inventory.</p>
+              <a href="https://plantify.netlify.app/" rel="noopener noreferrer" target="_blank">Check it Out!</a>
+              <a href="https://github.com/eliman387/Plantify" rel="noopener noreferrer" target="_blank">Project Github</a>
             </div>
           </div>
           <div className='card'>
@@ -78,8 +79,9 @@ function Homepage() {
               <h2>02</h2>
               <h3>Virtual Collective</h3>
               <img src={VC} alt="Virtual Collective" width='50%'/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
-              <a href="https://github.com/mikanur10/Virtual-Collective" rel="noopener noreferrer" target="_blank">Github</a>
+              <p>This cool little app allows the user to view delicious recipes and create their own as well.</p>
+              <a href="https://virtualcollective.netlify.app/" rel="noopener noreferrer" target="_blank">Check it Out!</a>
+              <a href="https://github.com/mikanur10/Virtual-Collective" rel="noopener noreferrer" target="_blank">Project Github</a>
             </div>
           </div>
           <div className='card'>
@@ -87,8 +89,11 @@ function Homepage() {
               <h2>03</h2>
               <h3>Recipe Tracker</h3>
               <img src={rt} alt="Recipe Tracker" width='50%'/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
-              <a href="https://github.com/eliman387/Recipe-Tracker" rel="noopener noreferrer" target="_blank">Github</a>
+              <p>This amazing callabrotive app allows the user to find local events in the local area and attend
+              virtually. This app was designed and developed in tandem with my colleagues:
+                Mika Nur, Chase Mock, Leslie, Ashley, and Jordie</p>
+              <a href="https://recipetracker.netlify.app/" rel="noopener noreferrer" target="_blank">Check it Out!</a>
+              <a href="https://github.com/eliman387/Recipe-Tracker" rel="noopener noreferrer" target="_blank">Project Github</a>
             </div>
           </div>
         </div>
