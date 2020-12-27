@@ -59,35 +59,7 @@ function Homepage() {
 
       </div>
       <h3 id='projects-header'> MY PROJECTS</h3>
-      <div className='projects'>
-        <div>
-          <img id='plantify-ss' src={plantify} alt="screenshot" />
-          <a className='project-link' href='https://plantify.netlify.com' rel="noopener noreferrer" target="_blank" ><h2>Plantify</h2></a>
-          <p className='project-descrip'>This cool little app allows the user to find local plant shops in the local area and check their inventory.</p>
-          <br/>
-          <a id='connect-button' href="https://github.com/eliman387/Plantify" rel="noopener noreferrer" target="_blank">Github</a>
-        </div>
-      </div>
-      <br />
-      <div className='projects'>
-        <div>
-          <img id='plantify-ss' src={rt} alt="screenshot" />
-          <a className='project-link links' href='https://recipetracker.netlify.com' rel="noopener noreferrer" target="_blank" ><h2>Recipe Tracker</h2></a>
-          <p className='project-descrip'>This cool little app allows the user to view delicious recipes and create their own as well.</p>
-          <br/>
-          <a id='connect-button' href="https://github.com/eliman387/Recipe-Tracker" rel="noopener noreferrer" target="_blank">Github</a>
-        </div>
-      </div>
-      <br />
-      <div className='projects'>
-        <div>
-          <img id='plantify-ss' src={VC} alt="screenshot" />
-          <a className='project-link'href='https://virtualcollective.netlify.app' rel="noopener noreferrer" target="_blank" ><h2>Virtual Collective</h2></a>
-          <p className='project-descrip'>This amazing callabrotive app allows the user to find local events in the local area and attend virtually. This app was designed and developed in tandem with my colleagues: Mika Nur, Chase Mock, Leslie, Ashley, and Jordie</p>
-          <a id='connect-button' href="https://github.com/mikanur10/Virtual-Collective" rel="noopener noreferrer" target="_blank">Github</a>
-        </div>
-      </div>
-      <br />
+      
       <br /> 
       <br />
       <div className='project-backdrop'>        
@@ -98,7 +70,7 @@ function Homepage() {
               <h3>Plantify</h3>
               <img src={plantify} alt="plantify" width='50%'/>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
-              <a href="https://github.com/eliman387/Plantify">Github</a>
+              <a href="https://github.com/eliman387/Plantify" rel="noopener noreferrer" target="_blank">Github</a>
             </div>
           </div>
           <div className='card'>
@@ -107,7 +79,7 @@ function Homepage() {
               <h3>Virtual Collective</h3>
               <img src={VC} alt="Virtual Collective" width='50%'/>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
-              <a href="https://github.com/mikanur10/Virtual-Collective">Github</a>
+              <a href="https://github.com/mikanur10/Virtual-Collective" rel="noopener noreferrer" target="_blank">Github</a>
             </div>
           </div>
           <div className='card'>
@@ -116,7 +88,7 @@ function Homepage() {
               <h3>Recipe Tracker</h3>
               <img src={rt} alt="Recipe Tracker" width='50%'/>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur harum nemo accusantium, repellat sapiente perspiciatis, assumenda voluptatum quod tempora dolorem ipsum deserunt alias maiores, beatae minima aperiam veniam! Vel.</p>
-              <a href="https://github.com/eliman387/Recipe-Tracker">Github</a>
+              <a href="https://github.com/eliman387/Recipe-Tracker" rel="noopener noreferrer" target="_blank">Github</a>
             </div>
           </div>
         </div>
