@@ -14,6 +14,9 @@ import icon5 from '../assets/ruby_icon.svg';
 import icon6 from '../assets/rails_icon.svg';
 import icon7 from '../assets/mongo_icon.svg';
 import icon8 from '../assets/postgres_icon.svg';
+import icon9 from '../assets/expressjs.svg';
+import icon10 from '../assets/airtable-logo.svg';
+
 
 
 
@@ -63,7 +66,7 @@ function Homepage() {
       
       <br /> 
       <br />
-      <div className='project-backdrop'>        
+      <div className='project-backdrop'> 
         <div className='container'>
           <div className='card'>
             <div className='content'>
@@ -72,7 +75,7 @@ function Homepage() {
               <div className='img-techstack'>
                 <img src={plantify} alt="plantify" width='50%' />
                 <div className='card-techstack'>
-                  <img className='card-icon'src={icon4} alt="react" />
+                  <img id='react-card-icon'className='card-icon'src={icon4} alt="react" />
                   <img className='card-icon' src={icon5} alt="ruby" />
                   <img className='card-icon' src={icon6} alt="rails" />
                 </div>
@@ -87,8 +90,18 @@ function Homepage() {
             <div className='content'>
               <h2>02</h2>
               <h3>Virtual Collective</h3>
-              <img src={VC} alt="Virtual Collective" width='50%'/>
-              <p>This cool little app allows the user to view delicious recipes and create their own as well.</p>
+              <div className='img-techstack'>
+                <img src={VC} alt="Virtual Collective" width='50%' />
+                <div className='card-techstack'>
+                  <img id='react-card-icon' className='card-icon'src={icon4} alt="react" />
+                  <img id='express-logo' className='card-icon' src={icon9} alt="express" />
+                  <img className='card-icon' src={icon7} alt="mongodb" />
+                </div>
+              </div>
+              <p>This amazing callabrotive app allows the user to find local events in the local area and attend
+                virtually. This app was designed and developed in tandem with my colleagues:
+                Mika Nur, Chase Mock, Leslie, Ashley, and Jordie
+              </p>
               <a href="https://virtualcollective.netlify.app/" rel="noopener noreferrer" target="_blank">Check it Out!</a>
               <a href="https://github.com/mikanur10/Virtual-Collective" rel="noopener noreferrer" target="_blank">Project Github</a>
             </div>
@@ -97,10 +110,14 @@ function Homepage() {
             <div className='content'>
               <h2>03</h2>
               <h3>Recipe Tracker</h3>
-              <img src={rt} alt="Recipe Tracker" width='50%'/>
-              <p>This amazing callabrotive app allows the user to find local events in the local area and attend
-              virtually. This app was designed and developed in tandem with my colleagues:
-                Mika Nur, Chase Mock, Leslie, Ashley, and Jordie</p>
+              <div className='img-techstack'>
+                <img src={rt} alt="Recipe Tracker" width='50%' />
+                <div className='card-techstack'>
+                  <img id='react-card-icon'className='card-icon'src={icon4} alt="react" />
+                  <img id='airtable-logo' className='card-icon' src={icon10} alt="airtable" />
+                </div>
+              </div>
+              <p>This cool little app allows the user to view delicious recipes and create their own as well.</p>
               <a href="https://recipetracker.netlify.app/" rel="noopener noreferrer" target="_blank">Check it Out!</a>
               <a href="https://github.com/eliman387/Recipe-Tracker" rel="noopener noreferrer" target="_blank">Project Github</a>
             </div>
@@ -108,7 +125,7 @@ function Homepage() {
         </div>
       </div>
       <br />
-      
+      <br/>  
       <div id='contact-me'>
         <h1>Contact Me</h1>
         <div id='email-container'>

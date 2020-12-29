@@ -19,12 +19,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 .project-backdrop {
-  background: no-repeat
-    url(https://products.ls.graphics/mesh-gradients/images/28.-Deco.jpg);
+  background: 
+    /* url(https://products.ls.graphics/mesh-gradients/images/28.-Deco.jpg); */
+    /* url(https://products.ls.graphics/mesh-gradients/images/11.-Fuchsia_1.jpg); */
+    /* url(https://products.ls.graphics/mesh-gradients/images/35.-Ronchi.jpg); */
+    /* url(https://products.ls.graphics/mesh-gradients/images/81.-Kobi_1.jpg); */
+    /* url(https://images.unsplash.com/photo-1608249889684-e91ddbdd47cf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80); */
+    /* url(https://images.unsplash.com/photo-1607299527549-7ba51c982f5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80); */
+    /* url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80); */
+    url(https://images.unsplash.com/photo-1530333821974-f9fcfd6718c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80);
+  background-size: cover;
   width: 80%;
-  height: 90vh;
+  height: 85vh;
   overflow: scroll;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 .container {
@@ -39,7 +48,7 @@
   position: relative;
   width: 80%;
   height: 550px;
-  margin: 30px;
+  margin: 50px 30px 30px 30px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.1);
@@ -247,7 +256,7 @@ h1 {
 #wheelhouse {
   position: relative;
   top: -30px;
-  font-family: "proxima-regular", serif;
+  font-family: "proxima-semibold", serif;
   font-size: 30px;
   color: #d19c8d;
   text-align: center;
@@ -267,41 +276,27 @@ h1 {
   width: 20%;
   height: 80px;
 }
-.projects {
-  width: 60vw;
-  height: 600px;
-  overflow: visible;
-  background-color: #e0c5bb;
-  border-radius: 10px;
-  margin-top: 60px;
-  margin-left: auto;
-  margin-right: 10%;
-  margin-bottom: 50px;
+#react-card-icon {
+  height: 75px;
+  margin-bottom: -5px;
+}
+#express-logo {
+  height: 75px;
+  margin-bottom: -15px;
+}
+#airtable-logo {
+  height: 150px;
+  margin-bottom: -45px;
 }
 #projects-header {
-  font-family: "proxima-regular";
+  font-family: "proxima-semibold";
   font-size: 30px;
-  color: #e0c5bb;
+  color: #11354c;
   text-align: center;
   margin-top: 90px;
   margin-bottom: -10px;
 }
-#plantify-ss {
-  margin-top: 100px;
-  margin-left: -300px;
-  height: 300px;
-  border: 5px solid #ffffff;
-}
-.project-link h2 {
-  margin-left: 20px;
-  font-size: 50px;
-  font-family: "proxima-regular", serif;
-}
-.project-descrip {
-  margin-left: 20px;
-  font-family: "proxima-regular", serif;
-  font-size: 20px;
-}
+
 #contact-me {
   width: 100vw;
   height: fit-content;
@@ -332,14 +327,17 @@ label {
   color: white;
   font-family: "Quincy", serif;
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
   margin-right: 20px;
 }
 input {
-  margin: 20px 25px;
+  margin: 20px 65px;
+  width: 150px;
 }
 textarea {
   margin-left: 25px;
+  width: 150px;
 }
 #form-submit {
   width: 50%;
@@ -366,6 +364,25 @@ textarea {
   width: 40%;
   font-family: "proxima-regular";
   font-size: 30px;
-  color: #ffffff;
+  color: #11354c;
   line-height: 2.1em;
+}
+.vid {
+  display: block;
+  margin: 10px auto;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.vid-container {
+  height: 85vh;
+  width: 80vw;
+  overflow: scroll;
+  position: relative;
+  border-radius: 10px;
+  margin: 10px auto;
 }

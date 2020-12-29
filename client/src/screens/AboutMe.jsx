@@ -17,7 +17,12 @@ function AboutMe(props) {
       <div id='about-me-container'>
         <img id='about-me-pic' src={aboutme} alt="about me" />
         <div id='brand-statement'>
-          <p>An up and coming Junior Software Engineer with a background of two years in visual merchandising and design. My creative experience in the retail field has allowed me to look at certain problems through a different lens. With a strong desire to seek collaborative solutions and an eager work ethic, makes me an excellent team player within my new developer career.</p>
+          <p>An up and coming Junior Software Engineer with a background of two years
+          in visual merchandising and design. My creative experience in the retail field
+          has allowed me to look at certain problems through a different lens.
+          With a strong desire to seek collaborative solutions and an eager work ethic,
+          makes me an excellent team player within my new developer career.
+          </p>
         </div>
       </div>
     </div>
