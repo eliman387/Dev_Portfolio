@@ -14,11 +14,17 @@ import icon5 from '../assets/ruby_icon.svg';
 import icon6 from '../assets/rails_icon.svg';
 import icon7 from '../assets/mongo_icon.svg';
 import icon8 from '../assets/postgres_icon.svg';
+import icon9 from '../assets/expressjs.svg';
+import icon10 from '../assets/airtable-logo.svg';
+
+
 
 
 function Homepage() {
   return (
     <div>
+      <br />
+      <br/>
       <nav id='header'>
         <div id='nav-links'>
         <Link className='links' to='/about-me'>ABOUT ME</Link>
@@ -57,36 +63,69 @@ function Homepage() {
 
       </div>
       <h3 id='projects-header'> MY PROJECTS</h3>
-      <div className='projects'>
-        <div>
-          <img id='plantify-ss' src={plantify} alt="screenshot" />
-          <a className='project-link' href='https://plantify.netlify.com' rel="noopener noreferrer" target="_blank" ><h2>Plantify</h2></a>
-          <p className='project-descrip'>This cool little app allows the user to find local plant shops in the local area and check their inventory.</p>
-          <br/>
-          <a id='connect-button' href="https://github.com/eliman387/Plantify" rel="noopener noreferrer" target="_blank">Github</a>
+      
+      <br /> 
+      <br />
+      <div className='project-backdrop'> 
+        <div className='container'>
+          <div className='card'>
+            <div className='content'>
+              <h2>01</h2>
+              <h3>Plantify</h3>
+              <div className='img-techstack'>
+                <img src={plantify} alt="plantify" width='50%' />
+                <div className='card-techstack'>
+                  <img id='react-card-icon'className='card-icon'src={icon4} alt="react" />
+                  <img className='card-icon' src={icon5} alt="ruby" />
+                  <img className='card-icon' src={icon6} alt="rails" />
+                </div>
+              </div>
+              
+              <p>This cool little app allows the user to find local plant shops in the local area and check their inventory.</p>
+              <a href="https://plantify.netlify.app/" rel="noopener noreferrer" target="_blank">Check it Out!</a>
+              <a href="https://github.com/eliman387/Plantify" rel="noopener noreferrer" target="_blank">Project Github</a>
+            </div>
+          </div>
+          <div className='card'>
+            <div className='content'>
+              <h2>02</h2>
+              <h3>Virtual Collective</h3>
+              <div className='img-techstack'>
+                <img src={VC} alt="Virtual Collective" width='50%' />
+                <div className='card-techstack'>
+                  <img id='react-card-icon' className='card-icon'src={icon4} alt="react" />
+                  <img id='express-logo' className='card-icon' src={icon9} alt="express" />
+                  <img className='card-icon' src={icon7} alt="mongodb" />
+                </div>
+              </div>
+              <p>This amazing callabrotive app allows the user to find local events in the local area and attend
+                virtually. This app was designed and developed in tandem with my colleagues:
+                Mika Nur, Chase Mock, Leslie, Ashley, and Jordie
+              </p>
+              <a href="https://virtualcollective.netlify.app/" rel="noopener noreferrer" target="_blank">Check it Out!</a>
+              <a href="https://github.com/mikanur10/Virtual-Collective" rel="noopener noreferrer" target="_blank">Project Github</a>
+            </div>
+          </div>
+          <div className='card'>
+            <div className='content'>
+              <h2>03</h2>
+              <h3>Recipe Tracker</h3>
+              <div className='img-techstack'>
+                <img src={rt} alt="Recipe Tracker" width='50%' />
+                <div className='card-techstack'>
+                  <img id='react-card-icon'className='card-icon'src={icon4} alt="react" />
+                  <img id='airtable-logo' className='card-icon' src={icon10} alt="airtable" />
+                </div>
+              </div>
+              <p>This cool little app allows the user to view delicious recipes and create their own as well.</p>
+              <a href="https://recipetracker.netlify.app/" rel="noopener noreferrer" target="_blank">Check it Out!</a>
+              <a href="https://github.com/eliman387/Recipe-Tracker" rel="noopener noreferrer" target="_blank">Project Github</a>
+            </div>
+          </div>
         </div>
       </div>
       <br />
-      <div className='projects'>
-        <div>
-          <img id='plantify-ss' src={rt} alt="screenshot" />
-          <a className='project-link links' href='https://recipetracker.netlify.com' rel="noopener noreferrer" target="_blank" ><h2>Recipe Tracker</h2></a>
-          <p className='project-descrip'>This cool little app allows the user to view delicious recipes and create their own as well.</p>
-          <br/>
-          <a id='connect-button' href="https://github.com/eliman387/Recipe-Tracker" rel="noopener noreferrer" target="_blank">Github</a>
-        </div>
-      </div>
-      <br />
-      <div className='projects'>
-        <div>
-          <img id='plantify-ss' src={VC} alt="screenshot" />
-          <a className='project-link'href='https://virtualcollective.netlify.app' rel="noopener noreferrer" target="_blank" ><h2>Virtual Collective</h2></a>
-          <p className='project-descrip'>This amazing callabrotive app allows the user to find local events in the local area and attend virtually. This app was designed and developed in tandem with my colleagues: Mika Nur, Chase Mock, Leslie, Ashley, and Jordie</p>
-          <br/>
-          <a id='connect-button' href="https://github.com/mikanur10/Virtual-Collective" rel="noopener noreferrer" target="_blank">Github</a>
-        </div>
-      </div>
-      <br/>
+      <br/>  
       <div id='contact-me'>
         <h1>Contact Me</h1>
         <div id='email-container'>
