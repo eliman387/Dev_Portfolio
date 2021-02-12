@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo1.svg';
 import profile from '../assets/website_photo.jpg';
-import plantify from '../assets/Plantify.png';
+import plantify from '../assets/Plantify1.png';
 import rt from '../assets/RecipeTracker.png';
 import VC from '../assets/VC.png';
 import stock from '../assets/stock2.jpg';
